@@ -5,8 +5,11 @@
 
 .video-player {
   width:800px;
+  display:inline-block;
   background:#eee;
   padding:10px;
+  border-right: 1px solid #fdf9f9;
+  border-bottom: 1px solid #fdf9f9;
 }
 
 video {
@@ -23,4 +26,10 @@ video {
   float:left;
   cursor:pointer;
   padding: 10px;
+}
+
+.comment-list {
+  float:right;
+  display:inline-block;
+  width: 300px;
 }
