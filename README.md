@@ -17,6 +17,12 @@ Run the following commands:
     jspm install
 
 
+## Running the mock server
+
+    $ gem install bundler
+    $ bundle install
+    $ ruby mock_server.rb
+
 ## Running
 
     $ http-server
@@ -30,3 +36,5 @@ Visit [http://localhost:8080](http://localhost:8080)
 ### Compiling to a single file for distribution
 
     jspm bundle-sfx lib/main.js <outfile>
+
+
