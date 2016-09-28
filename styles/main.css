@@ -3,6 +3,12 @@
   margin: 0 auto;
 }
 
+.video-player {
+  width:800px;
+  height:800px;
+  background:grey;  
+}
+
 .video-list {
   margin:0;
   padding:0;
@@ -11,5 +17,6 @@
 
 .video-element {
   float:left;
+  cursor:pointer;
   padding: 10px;
 }
