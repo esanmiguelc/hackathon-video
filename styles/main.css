@@ -5,8 +5,12 @@
 
 .video-player {
   width:800px;
-  height:800px;
-  background:grey;  
+  background:#eee;
+  padding:10px;
+}
+
+video {
+  width:800px;
 }
 
 .video-list {
