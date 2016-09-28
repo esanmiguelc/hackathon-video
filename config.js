@@ -16,6 +16,8 @@ System.config({
     "build.js": [
       "lib/main.js",
       "lib/main_component.js",
+      "lib/list_component.js",
+      "lib/video_component.js",
       "npm:react@15.3.2.js",
       "npm:react@15.3.2/react.js",
       "npm:react@15.3.2/lib/React.js",
