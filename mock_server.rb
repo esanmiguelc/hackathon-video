@@ -1,9 +1,8 @@
 require 'sinatra'
 require 'json'
-set :bind, '0.0.0.0'
-set :port, 3000
 
-get '/' do
+get '/endpoint' do
+  headers 'Access-Control-Allow-Origin' => '*'
   [
     {
       title: "First Video",
