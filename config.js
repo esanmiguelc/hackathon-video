@@ -16,6 +16,8 @@ System.config({
     "build.js": [
       "lib/main.js",
       "lib/main_component.js",
+      "npm:whatwg-fetch@1.0.0.js",
+      "npm:whatwg-fetch@1.0.0/fetch.js",
       "lib/list_component.js",
       "lib/video_component.js",
       "npm:react@15.3.2.js",
@@ -272,6 +274,7 @@ System.config({
     "babel-plugin-transform-react-jsx": "npm:babel-plugin-transform-react-jsx@6.8.0",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@2.4.1",
+    "fetch": "npm:whatwg-fetch@1.0.0",
     "react": "npm:react@15.3.2",
     "react-dom": "npm:react-dom@15.3.2",
     "github:jspm/nodelibs-assert@0.1.0": {
