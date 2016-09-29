@@ -14,6 +14,13 @@ body {
 .left-column {
   float:left;
   width:180px;
+  cursor: pointer;
+}
+
+.left-column li {
+  margin-bottom:10px;
+  color:gray;
+  font-weight: lighter;
 }
 
 ul {
@@ -39,7 +46,7 @@ video {
 }
 
 .video-list {
-  margin:0;
+  margin:15px 0px;
   padding:0;
   list-style: none;
 }
@@ -48,6 +55,16 @@ video {
   float:left;
   cursor:pointer;
   padding: 10px;
+}
+
+.fallback-video-thumbnail {
+  background-image: url('http://s3images.coroflot.com/user_files/individual_files/318424_ezOOPGDBS66p32K0EGVEKAXBa.jpg');
+  width:200px;
+  height:200px;
+  display:block;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center center;
 }
 
 .video-thumbnail {
@@ -108,4 +125,9 @@ video {
   border-top: 0px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.selected {
+  font-weight:bolder !important;
+  color:black !important;
 }
