@@ -20,6 +20,7 @@ System.config({
       "npm:whatwg-fetch@1.0.0/fetch.js",
       "lib/player_component.js",
       "lib/comment_list.js",
+      "lib/comment_component.js",
       "npm:react@15.3.2.js",
       "npm:react@15.3.2/react.js",
       "npm:react@15.3.2/lib/React.js",
